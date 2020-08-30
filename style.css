@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    padding:  2%;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 7px;
+}
+li{
+    padding: 0px 10px;
+    /* color: gray; */
+    font-size: 12px;
+}
+.fa-th{
+ font-size: 20px !important; 
+ color: rgba(116, 113, 113, 0.616);  
+}
+.logo {
+    border-radius: 100%;
+}
+/* this is for the content */
+.inside{
+    margin-top: 12vh;
+}
+.content{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.btn{
+    padding-top: 20px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+}
+.brand-logo{
+padding-bottom:30px;
+}
+.search   {
+    width: 45vw;
+    height: 44px;
+    margin: 0 auto;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+}
+.search:hover{
+    box-shadow: 1px 2px 10px 0 #fac3c3;
+}
+.one > input  {
+    width: 40vw;
+    padding: 0;
+    word-wrap: break-word;
+    border: transparent;
+    margin-top: 10px;
+    float: right;
+    /* display: flex; */
+    /* margin-right: 10px !important; */
+    text-align: left;
+    /* position: absolute; */
+}
+.fa-search{
+    margin-top: 13px;
+    color: gray;
+    margin-left: 2.5px;
+}
+.first , .second {
+    border: 1px solid #ffffff;
+    height: 40px;
+    background-color: #f8f8f8;
+    color: #222;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.first:hover , .second:hover{
+    border: 2px solid rgb(226, 216, 216);
+}
+.lang{
+    padding-top: 20px;
+    font-size: 12px;
+}
+.lang > a {
+    text-decoration: none;
+    padding-left: 7px;
+    /* display: inline-flex; */
+    /* justify-content: space-between; */
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 8vh;
+}
+hr{
+    color: rgb(238, 230, 230);
+}
+.country{
+    background-color: rgb(241, 241, 241);
+    height: 3.5vh;
+    padding-top: 6px;
+    color: gray;
+}
+.ads{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: rgb(241, 241, 241);
+}
+.list-1 > a {
+    padding: 9px;
+    color: gray;
+}
+.list-2 > a{
+    padding: 9px;
+    color: gray;
+}
